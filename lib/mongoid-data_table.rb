@@ -1,0 +1,1 @@
+require 'mongoid/data_table'
