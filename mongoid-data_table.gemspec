@@ -2,12 +2,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "mongoid/data_table/version"
 
 Gem::Specification.new do |s|
-  s.name        = "mongoid-data_table"
+  s.name        = "datatables_mongoid"
   s.version     = Mongoid::DataTable::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Umair Ejaz"]
   s.email       = ["umairejaz.ch@gmail.com"]
-  s.homepage    = "https://github.com/Umair/mongoid-data_table"
+  s.homepage    = "https://github.com/Umair/datatables_mongoid"
   s.summary     = %q{Simple data preparation from Mongoid to the jQuery DataTables plugin}
   s.description = %q{Simple data preparation from Mongoid to the jQuery DataTables plugin}
 
